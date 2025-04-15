@@ -29,9 +29,61 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. Run the data collector:
+## Running the Application
+
+### Option 1: Run All Components at Once
+Use the orchestrator script to run the entire pipeline:
+```bash
+# Run data collection and analysis
+python run_analysis.py --collect-data --analyze --swing --summary
+
+# Launch the dashboard in your browser
+streamlit run dashboard.py
+```
+
+You can also run specific components:
+```bash
+# Just collect data
+python run_analysis.py --collect-data
+
+# Collect data and analyze
+python run_analysis.py --collect-data --analyze
+
+# Run everything except dashboard
+python run_analysis.py --collect-data --analyze --swing --summary
+```
+
+### Option 2: Run Components Individually
+Run the following commands in sequence:
+
+1. Collect market data:
 ```bash
 python data_collector.py
+```
+
+2. Analyze market data:
+```bash
+python market_analyzer.py
+```
+
+3. Perform technical analysis:
+```bash
+python swing_analyzer.py
+```
+
+4. Generate summary report:
+```bash
+python summary_generator.py
+```
+
+5. Generate detailed report:
+```bash
+python report_generator.py
+```
+
+6. Launch the dashboard in your browser:
+```bash
+streamlit run dashboard.py
 ```
 
 ## Configuration

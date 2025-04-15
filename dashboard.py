@@ -14,12 +14,19 @@ class Dashboard:
     def load_latest_summary(self) -> dict:
         """Load the latest summary file"""
         try:
-            # Use the correct path to find the summary file
-            summary_file = os.path.join(os.path.dirname(__file__), 'reports', 'market_summary_2025-04-14.json')
+            # Get the reports directory
+            reports_dir = os.path.join(os.path.dirname(__file__), 'reports')
             
-            if not os.path.exists(summary_file):
-                st.error(f"Summary file not found at: {summary_file}")
+            # Find all summary files
+            summary_files = [f for f in os.listdir(reports_dir) if f.startswith('market_summary_') and f.endswith('.json')]
+            
+            if not summary_files:
+                st.error("No summary files found in reports directory")
                 return {}
+            
+            # Get the latest file by sorting based on the date in filename
+            latest_file = max(summary_files)
+            summary_file = os.path.join(reports_dir, latest_file)
             
             st.write(f"Loading summary file: {summary_file}")
             with open(summary_file, 'r') as f:

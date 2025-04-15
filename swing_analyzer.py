@@ -176,8 +176,8 @@ class SwingAnalyzer:
     def save_results(self, results: Dict) -> str:
         """Save swing analysis results to JSON file"""
         try:
-            # Get current date for filename
-            date_str = datetime.now().strftime('%Y%m%d')
+            # Create filename with current date
+            date_str = datetime.now().strftime("%Y-%m-%d")
             filename = f"swing_analysis_{date_str}.json"
             
             # Save to analysis directory

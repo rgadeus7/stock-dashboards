@@ -8,7 +8,7 @@ from data_collector import DataCollector
 from market_analyzer import MarketAnalyzer
 from swing_analyzer import SwingAnalyzer
 from summary_generator import SummaryGenerator
-from dashboard import MarketDashboard
+from dashboard import Dashboard
 from file_manager import FileManager
 
 def setup_logging():
@@ -44,7 +44,7 @@ def main():
         market_analyzer = MarketAnalyzer(file_manager)
         swing_analyzer = SwingAnalyzer(file_manager)
         summary_generator = SummaryGenerator(file_manager)
-        dashboard = MarketDashboard(file_manager)
+        dashboard = Dashboard(file_manager)
 
         # Run pipeline components based on arguments
         if args.collect_data:
@@ -72,7 +72,7 @@ def main():
 
         if args.dashboard:
             logger.info("Launching dashboard...")
-            dashboard.launch()
+            dashboard.run()
 
         # Clean up old data
         cutoff_time = datetime.now() - timedelta(hours=args.keep_hours)

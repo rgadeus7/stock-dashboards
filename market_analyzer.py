@@ -250,18 +250,26 @@ class MarketAnalyzer:
             return {}
     
     def save_analysis_to_json(self, analysis_results: Dict) -> str:
-        """Save analysis results to JSON file"""
+        """Save analysis results to a JSON file"""
         try:
-            # Get current date for filename
-            date_str = datetime.now().strftime('%Y%m%d')
+            # Create filename with current date
+            date_str = datetime.now().strftime("%Y-%m-%d")
             filename = f"market_analysis_{date_str}.json"
             
-            # Save to analysis directory
+            # Save to analysis_output directory
             file_path = os.path.join(self.file_manager.analysis_dir, filename)
-            with open(file_path, 'w') as f:
-                json.dump(analysis_results, f, indent=4)
             
-            self.logger.info(f"Saved analysis results to {file_path}")
+            # Convert datetime objects to strings
+            def datetime_handler(obj):
+                if isinstance(obj, datetime):
+                    return obj.strftime("%Y-%m-%d %H:%M:%S")
+                return obj
+            
+            # Save the analysis results
+            with open(file_path, 'w') as f:
+                json.dump(analysis_results, f, default=datetime_handler, indent=4)
+            
+            self.logger.info(f"Analysis results saved to {file_path}")
             return file_path
             
         except Exception as e:
