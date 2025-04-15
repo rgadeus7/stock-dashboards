@@ -1,0 +1,29 @@
+tickers:
+    SPX:
+      symbol: ^GSPC
+      name: S&P 500 Index
+      description: "Broad market index representing 500 large companies"
+      data_collection:
+        period: 20y
+        intervals: ["daily", "weekly", "monthly"]
+      analysis_timeframes: ["daily"]  # Only daily analysis for SPX
+    
+    VIX:
+      symbol: ^VIX
+      name: Volatility Index
+      description: "Measures market's expectation of volatility"
+      data_collection:
+        period: 20y
+        intervals: ["daily", "weekly", "monthly"]
+      analysis_timeframes: ["daily"]  # Only daily analysis for VIX
+    
+      
+    ES:
+      symbol: ES=F
+      name: E-mini S&P 500 Futures
+      description: "S&P 500 E-mini futures contract"
+      data_collection:
+        period: 2y  # Shorter period for futures as they have more recent data
+        intervals: ["60m",  "daily", "weekly"]  # Added 1h interval
+      analysis_timeframes: [ "daily", "weekly"]  # Multiple timeframes for ES
+  
