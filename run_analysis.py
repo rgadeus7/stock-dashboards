@@ -6,10 +6,11 @@ from typing import Dict, Optional
 import yaml
 from data_collector import DataCollector
 from market_analyzer import MarketAnalyzer
-from swing_analyzer import SwingAnalyzer
+from bias_analyzer import BiasAnalyzer
 from summary_generator import SummaryGenerator
 from dashboard import Dashboard
 from file_manager import FileManager
+from ticker_manager import TickerManager
 
 def setup_logging():
     """Setup logging configuration"""
@@ -26,7 +27,7 @@ def main():
     parser = argparse.ArgumentParser(description='Market Health Analysis Pipeline')
     parser.add_argument('--collect-data', action='store_true', help='Collect market data')
     parser.add_argument('--analyze', action='store_true', help='Run market analysis')
-    parser.add_argument('--swing', action='store_true', help='Run swing analysis')
+    parser.add_argument('--bias', action='store_true', help='Run bias analysis')
     parser.add_argument('--summary', action='store_true', help='Generate summary')
     parser.add_argument('--dashboard', action='store_true', help='Launch dashboard')
     parser.add_argument('--keep-hours', type=int, default=24, help='Keep data for specified hours')
@@ -36,13 +37,14 @@ def main():
     logger = logging.getLogger(__name__)
 
     try:
-        # Initialize FileManager
+        # Initialize FileManager and TickerManager
         file_manager = FileManager()
+        ticker_manager = TickerManager(file_manager)
         
         # Initialize components
         collector = DataCollector(file_manager)
-        market_analyzer = MarketAnalyzer(file_manager)
-        swing_analyzer = SwingAnalyzer(file_manager)
+        market_analyzer = MarketAnalyzer(file_manager, ticker_manager)
+        bias_analyzer = BiasAnalyzer(file_manager, ticker_manager)
         summary_generator = SummaryGenerator(file_manager)
         dashboard = Dashboard(file_manager)
 
@@ -51,21 +53,27 @@ def main():
             logger.info("Starting data collection...")
             collector.collect_all_data()
 
+        # If summary is requested, ensure analysis is run first
+        if args.summary and not (args.analyze or args.bias):
+            logger.info("Summary requested but no analysis specified. Running both market and bias analysis...")
+            args.analyze = True
+            args.bias = True
+
         if args.analyze:
             logger.info("Starting market analysis...")
-            market_results = market_analyzer.analyze_all_symbols()
+            market_results = market_analyzer.analyze_all_tickers()
             if market_results:
                 logger.info("Market analysis completed successfully")
 
-        if args.swing:
-            logger.info("Starting swing analysis...")
-            swing_results = swing_analyzer.analyze_all_symbols()
-            if swing_results:
-                logger.info("Swing analysis completed successfully")
+        if args.bias:
+            logger.info("Starting bias analysis...")
+            bias_results = bias_analyzer.analyze_all_tickers()
+            if bias_results:
+                logger.info("Bias analysis completed successfully")
 
         if args.summary:
             logger.info("Generating summary...")
-            summary = summary_generator.generate_summary(market_results, swing_results)
+            summary = summary_generator.generate_summary()
             if summary:
                 summary_generator.save_summary(summary)
                 logger.info("Summary generated and saved successfully")

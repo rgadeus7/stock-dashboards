@@ -1,0 +1,343 @@
+2025-04-15 11:55:50,089 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:55:50,094 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:55:50,283 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\weekly\SPX_2005-04-11_to_2025-04-14_1wk.csv
+2025-04-15 11:55:50,288 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 11:55:50,424 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\monthly\SPX_2005-05-01_to_2025-04-01_1mo.csv
+2025-04-15 11:55:50,428 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 11:55:50,752 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:55:50,757 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:55:51,095 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:55:51,099 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:55:51,360 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\weekly\ES_2005-04-11_to_2025-04-14_1wk.csv
+2025-04-15 11:55:51,365 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 11:55:51,366 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:21:26,405 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-18_to_2025-04-15_1d.csv
+2025-04-15 15:21:26,405 - ERROR - Error calculating indicators: module 'ta' has no attribute 'rsi'
+2025-04-15 15:21:26,406 - ERROR - Error analyzing SPX: 'sma_20'
+2025-04-15 15:21:26,406 - ERROR - Error analyzing SPX: 'sma_20'
+2025-04-15 15:21:26,609 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 15:21:26,610 - ERROR - Error calculating indicators: module 'ta' has no attribute 'rsi'
+2025-04-15 15:21:26,610 - ERROR - Error analyzing VIX: 'sma_20'
+2025-04-15 15:21:26,610 - ERROR - Error analyzing VIX: 'sma_20'
+2025-04-15 15:21:26,816 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 15:21:26,816 - ERROR - Error calculating indicators: module 'ta' has no attribute 'rsi'
+2025-04-15 15:21:26,817 - ERROR - Error analyzing ES: 'sma_20'
+2025-04-15 15:21:26,817 - ERROR - Error analyzing ES: 'sma_20'
+2025-04-15 15:21:26,818 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:22:46,028 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-18_to_2025-04-15_1d.csv
+2025-04-15 15:22:46,029 - ERROR - Error calculating indicators: 'close'
+2025-04-15 15:22:46,029 - ERROR - Error analyzing SPX: 'sma_20'
+2025-04-15 15:22:46,029 - ERROR - Error analyzing SPX: 'sma_20'
+2025-04-15 15:22:46,204 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 15:22:46,204 - ERROR - Error calculating indicators: 'close'
+2025-04-15 15:22:46,204 - ERROR - Error analyzing VIX: 'sma_20'
+2025-04-15 15:22:46,205 - ERROR - Error analyzing VIX: 'sma_20'
+2025-04-15 15:22:46,477 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 15:22:46,477 - ERROR - Error calculating indicators: 'close'
+2025-04-15 15:22:46,478 - ERROR - Error analyzing ES: 'sma_20'
+2025-04-15 15:22:46,478 - ERROR - Error analyzing ES: 'sma_20'
+2025-04-15 15:22:46,478 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:23:36,678 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-18_to_2025-04-15_1d.csv
+2025-04-15 15:23:37,616 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:23:37,832 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\weekly\SPX_2005-04-11_to_2025-04-14_1wk.csv
+2025-04-15 15:23:38,037 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:23:38,120 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\monthly\SPX_2005-05-01_to_2025-04-01_1mo.csv
+2025-04-15 15:23:38,176 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:23:38,574 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 15:23:39,514 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:23:39,769 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 15:23:40,696 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:23:40,827 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\weekly\ES_2005-04-11_to_2025-04-14_1wk.csv
+2025-04-15 15:23:41,028 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:23:41,115 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\monthly\ES_2005-06-01_to_2025-04-01_1mo.csv
+2025-04-15 15:23:41,159 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:23:41,160 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:25:41,065 - WARNING - No data file found for SPX at 1d interval
+2025-04-15 15:25:41,066 - ERROR - No data available for SPX at 1d interval
+2025-04-15 15:25:41,066 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:25:41,066 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:25:41,066 - WARNING - No data file found for VIX at 1d interval
+2025-04-15 15:25:41,066 - ERROR - No data available for VIX at 1d interval
+2025-04-15 15:25:41,066 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:25:41,066 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:25:41,067 - WARNING - No data file found for ES at 1d interval
+2025-04-15 15:25:41,067 - ERROR - No data available for ES at 1d interval
+2025-04-15 15:25:41,067 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:25:41,067 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:25:41,068 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:26:08,287 - WARNING - No data file found for SPX at 1d interval
+2025-04-15 15:26:08,288 - ERROR - No data available for SPX at 1d interval
+2025-04-15 15:26:08,288 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:26:08,288 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:26:08,288 - WARNING - No data file found for VIX at 1d interval
+2025-04-15 15:26:08,288 - ERROR - No data available for VIX at 1d interval
+2025-04-15 15:26:08,288 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:26:08,288 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:26:08,288 - WARNING - No data file found for ES at 1d interval
+2025-04-15 15:26:08,288 - ERROR - No data available for ES at 1d interval
+2025-04-15 15:26:08,289 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:26:08,289 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:26:08,289 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:27:42,431 - WARNING - No data file found for SPX at 1d interval
+2025-04-15 15:27:42,431 - ERROR - No data available for SPX at 1d interval
+2025-04-15 15:27:42,431 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:27:42,431 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:27:42,431 - WARNING - No data file found for VIX at 1d interval
+2025-04-15 15:27:42,432 - ERROR - No data available for VIX at 1d interval
+2025-04-15 15:27:42,432 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:27:42,432 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:27:42,432 - WARNING - No data file found for ES at 1d interval
+2025-04-15 15:27:42,432 - ERROR - No data available for ES at 1d interval
+2025-04-15 15:27:42,432 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:27:42,432 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:27:42,432 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:28:06,518 - WARNING - No data file found for SPX at 1d interval
+2025-04-15 15:28:06,518 - ERROR - No data available for SPX at 1d interval
+2025-04-15 15:28:06,518 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:28:06,518 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 15:28:06,518 - WARNING - No data file found for VIX at 1d interval
+2025-04-15 15:28:06,518 - ERROR - No data available for VIX at 1d interval
+2025-04-15 15:28:06,518 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:28:06,518 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 15:28:06,519 - WARNING - No data file found for ES at 1d interval
+2025-04-15 15:28:06,519 - ERROR - No data available for ES at 1d interval
+2025-04-15 15:28:06,519 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:28:06,519 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 15:28:06,519 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:28:35,248 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:28:35,474 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:28:35,542 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:28:36,501 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:28:36,609 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:28:36,648 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:28:36,649 - WARNING - No data file found for ES at 1mo interval
+2025-04-15 15:28:36,649 - ERROR - No data available for ES at 1mo interval
+2025-04-15 15:28:36,649 - ERROR - Error analyzing ES: No data available for ES at 1mo interval
+2025-04-15 15:28:36,649 - ERROR - Error analyzing ES: No data available for ES at 1mo interval
+2025-04-15 15:28:36,650 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:29:09,711 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:29:09,934 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:29:10,002 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:29:11,057 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:29:11,181 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:29:11,225 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:29:11,245 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:29:11,245 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:30:34,395 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:30:34,667 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:30:34,731 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:30:35,815 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:30:35,929 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:30:35,960 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:30:35,971 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:30:35,974 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:31:16,441 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:31:16,692 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:31:16,755 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:31:17,838 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:31:17,972 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:31:18,010 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:31:18,025 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:31:18,027 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:35:34,335 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:35:34,548 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:35:34,610 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:35:35,592 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:35:35,702 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:35:35,733 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:35:35,746 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:35:35,748 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:36:03,417 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:36:03,658 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:36:03,722 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:36:04,711 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:36:04,823 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:36:04,852 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:36:04,866 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:36:04,868 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:36:53,570 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:36:53,796 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:36:53,857 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:36:54,850 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:36:54,961 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:36:54,993 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:36:55,004 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:36:55,005 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:37:30,384 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:37:30,664 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:37:30,730 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:37:31,804 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:37:31,916 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:37:31,945 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:37:31,957 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:37:31,958 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:38:02,673 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:38:02,922 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:38:02,982 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:38:04,057 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:38:04,174 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:38:04,211 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:38:04,224 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:38:04,226 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:39:48,567 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:39:48,798 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:39:48,862 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:39:49,863 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:39:49,989 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:39:50,030 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:39:50,042 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:39:50,053 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:41:09,883 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:41:10,102 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:41:10,164 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:41:11,135 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:41:11,252 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:41:11,286 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:41:11,301 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:41:11,312 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:45:02,042 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:45:02,267 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:45:02,329 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:45:03,333 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:45:03,450 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:45:03,486 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:45:03,499 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:45:03,511 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:45:16,780 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d_2025-04-15.json
+2025-04-15 15:45:17,024 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk_2025-04-15.json
+2025-04-15 15:45:17,095 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo_2025-04-15.json
+2025-04-15 15:45:18,199 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d_2025-04-15.json
+2025-04-15 15:45:18,329 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d_2025-04-15.json
+2025-04-15 15:45:18,367 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk_2025-04-15.json
+2025-04-15 15:45:18,380 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo_2025-04-15.json
+2025-04-15 15:45:18,391 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:47:34,238 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 15:47:34,456 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 15:47:34,516 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 15:47:35,527 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 15:47:35,636 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 15:47:35,666 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1wk.json
+2025-04-15 15:47:35,677 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1mo.json
+2025-04-15 15:47:35,679 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:48:47,668 - ERROR - Error loading ticker configuration: while parsing a flow sequence
+  in "C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\config\tickers.yaml", line 27, column 20
+expected ',' or ']', but got '<scalar>'
+  in "C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\config\tickers.yaml", line 27, column 37
+2025-04-15 15:48:47,669 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:49:02,327 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 15:49:02,547 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 15:49:02,604 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 15:49:03,589 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 15:49:03,698 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 15:49:03,699 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary_2025-04-15.json
+2025-04-15 15:50:31,710 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 15:50:31,928 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 15:50:31,989 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 15:50:32,998 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 15:50:33,103 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 15:50:33,104 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 19:03:36,647 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 19:03:36,905 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 19:03:36,986 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 19:03:38,044 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 19:03:38,179 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 19:03:38,180 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 19:04:51,991 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 19:04:52,225 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 19:04:52,289 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 19:04:53,323 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 19:04:53,458 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 19:04:53,459 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 19:09:28,480 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 19:09:28,745 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 19:09:28,805 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 19:09:29,809 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 19:09:29,936 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 19:09:30,051 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 19:09:30,052 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:24:02,497 - ERROR - Error loading data for SPX: Error tokenizing data. C error: Expected 1 fields in line 4, saw 6
+
+2025-04-15 20:24:02,498 - ERROR - No data available for SPX at 1d interval
+2025-04-15 20:24:02,498 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 20:24:02,498 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 20:24:02,500 - ERROR - Error loading data for VIX: Error tokenizing data. C error: Expected 1 fields in line 4, saw 6
+
+2025-04-15 20:24:02,501 - ERROR - No data available for VIX at 1d interval
+2025-04-15 20:24:02,501 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 20:24:02,501 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 20:24:02,502 - ERROR - Error loading data for ES: Error tokenizing data. C error: Expected 1 fields in line 4, saw 6
+
+2025-04-15 20:24:02,502 - ERROR - No data available for ES at 1d interval
+2025-04-15 20:24:02,502 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 20:24:02,502 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 20:24:02,503 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:24:41,806 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 20:24:42,033 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 20:24:42,093 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 20:24:43,157 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 20:24:43,272 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:24:43,389 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:24:43,390 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:25:37,107 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 20:25:37,336 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 20:25:37,399 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 20:25:38,412 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 20:25:38,528 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:25:38,644 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:25:38,646 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:27:14,011 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 20:27:14,238 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 20:27:14,303 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 20:27:15,306 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 20:27:15,436 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:27:15,553 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:27:15,556 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:27:57,336 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 20:27:57,565 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 20:27:57,633 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 20:27:58,644 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 20:27:58,654 - ERROR - No valid dates found in data for ES
+2025-04-15 20:27:58,655 - ERROR - No data available for ES at 60m interval
+2025-04-15 20:27:58,655 - ERROR - Error analyzing ES: No data available for ES at 60m interval
+2025-04-15 20:27:58,655 - ERROR - Error analyzing ES: No data available for ES at 60m interval
+2025-04-15 20:27:58,656 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:29:12,570 - ERROR - No valid dates found in data for SPX
+2025-04-15 20:29:12,570 - ERROR - No data available for SPX at 1d interval
+2025-04-15 20:29:12,570 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 20:29:12,570 - ERROR - Error analyzing SPX: No data available for SPX at 1d interval
+2025-04-15 20:29:12,597 - ERROR - No valid dates found in data for VIX
+2025-04-15 20:29:12,597 - ERROR - No data available for VIX at 1d interval
+2025-04-15 20:29:12,598 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 20:29:12,598 - ERROR - Error analyzing VIX: No data available for VIX at 1d interval
+2025-04-15 20:29:13,143 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_60m.json
+2025-04-15 20:29:13,150 - ERROR - No valid dates found in data for ES
+2025-04-15 20:29:13,151 - ERROR - No data available for ES at 1d interval
+2025-04-15 20:29:13,151 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 20:29:13,151 - ERROR - Error analyzing ES: No data available for ES at 1d interval
+2025-04-15 20:29:13,152 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:30:40,197 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 20:30:40,425 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 20:30:40,487 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 20:30:41,504 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 20:30:41,726 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_60m.json
+2025-04-15 20:30:41,842 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:30:41,843 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:32:15,889 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1d.json
+2025-04-15 20:32:16,166 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1wk.json
+2025-04-15 20:32:16,250 - INFO - Saved SPX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_SPX_1mo.json
+2025-04-15 20:32:17,417 - INFO - Saved VIX market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_VIX_1d.json
+2025-04-15 20:32:17,656 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_60m.json
+2025-04-15 20:32:17,796 - INFO - Saved ES market analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_ES_1d.json
+2025-04-15 20:32:17,797 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:56:20,274 - ERROR - Error analyzing SPX at 1d timeframe: 'high'
+2025-04-15 20:56:20,508 - ERROR - Error analyzing SPX at 1wk timeframe: 'high'
+2025-04-15 20:56:20,574 - ERROR - Error analyzing SPX at 1mo timeframe: 'high'
+2025-04-15 20:56:21,588 - ERROR - Error analyzing VIX at 1d timeframe: 'high'
+2025-04-15 20:56:21,789 - ERROR - Error analyzing ES at 60m timeframe: 'high'
+2025-04-15 20:56:21,925 - ERROR - Error analyzing ES at 1d timeframe: 'high'
+2025-04-15 20:56:21,926 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 20:57:14,511 - ERROR - Error analyzing SPX at 1d timeframe: 'MarketAnalyzer' object has no attribute 'calculate_bias'
+2025-04-15 20:57:15,301 - ERROR - Error analyzing SPX at 1wk timeframe: 'MarketAnalyzer' object has no attribute 'calculate_bias'
+2025-04-15 20:57:15,398 - ERROR - Error analyzing SPX at 1mo timeframe: 'MarketAnalyzer' object has no attribute 'calculate_bias'
+2025-04-15 21:11:46,558 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 21:15:41,486 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json

@@ -1,168 +1,183 @@
 import os
 import json
 from datetime import datetime
-from file_manager import FileManager
+import logging
+from typing import Dict, List
+import pandas as pd
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 class ReportGenerator:
-    def __init__(self, file_manager: FileManager):
-        """Initialize the ReportGenerator with a FileManager instance"""
-        self.file_manager = file_manager
+    def __init__(self, analysis_output_dir: str):
+        """Initialize the ReportGenerator with the analysis output directory"""
+        self.analysis_output_dir = analysis_output_dir
+        self.logger = logging.getLogger(__name__)
+        self.setup_logging()
+        
+        # Create reports directory if it doesn't exist
+        self.reports_dir = os.path.join(os.path.dirname(analysis_output_dir), 'reports')
+        os.makedirs(self.reports_dir, exist_ok=True)
     
-    def generate_report(self, summary: dict) -> str:
-        """Generate HTML report from summary data"""
-        html = f"""
+    def setup_logging(self):
+        """Setup logging configuration"""
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler('report_generation.log'),
+                logging.StreamHandler()
+            ]
+        )
+    
+    def load_summary_data(self) -> Dict:
+        """Load the market analysis summary data"""
+        summary_path = os.path.join(self.analysis_output_dir, 'market_analysis_summary.json')
+        if not os.path.exists(summary_path):
+            raise FileNotFoundError(f"Summary file not found: {summary_path}")
+        
+        with open(summary_path, 'r') as f:
+            return json.load(f)
+    
+    def generate_html_report(self, summary_data: Dict) -> str:
+        """Generate HTML report from summary data in a table format for all symbols"""
+        html_content = f"""
         <!DOCTYPE html>
         <html>
         <head>
-            <title>Market Health Report - {summary['date']}</title>
+            <title>Market Analysis Report</title>
             <style>
-                body {{ font-family: Arial, sans-serif; margin: 20px; }}
-                h1, h2, h3 {{ color: #333; }}
-                .container {{ max-width: 1200px; margin: 0 auto; }}
-                .symbol-section {{ 
-                    margin-bottom: 40px; 
-                    border: 1px solid #ddd; 
-                    padding: 20px; 
+                body {{
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    background-color: #f5f5f5;
+                }}
+                .container {{
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    background-color: white;
+                    padding: 20px;
                     border-radius: 8px;
-                    background: #fff;
-                }}
-                .interval-section {{ 
-                    margin: 15px 0; 
-                    padding: 15px; 
-                    background: #f8f9fa; 
-                    border-radius: 5px;
-                }}
-                .metric-grid {{
-                    display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                    gap: 15px;
-                    margin-top: 10px;
-                }}
-                .metric {{
-                    background: #fff;
-                    padding: 10px;
-                    border-radius: 5px;
                     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                 }}
-                .trend-up {{ color: #28a745; }}
-                .trend-down {{ color: #dc3545; }}
-                .trend-neutral {{ color: #ffc107; }}
-                .levels {{
-                    display: flex;
-                    gap: 20px;
-                    margin-top: 10px;
+                .header {{
+                    text-align: center;
+                    margin-bottom: 30px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #eee;
                 }}
-                .support-levels {{ color: #28a745; }}
-                .resistance-levels {{ color: #dc3545; }}
+                h2 {{
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                }}
+                table {{
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-bottom: 30px;
+                }}
+                th, td {{
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: center;
+                }}
+                th {{
+                    background-color: #f2f2f2;
+                    font-weight: bold;
+                }}
+                .positive {{ color: #28a745; }}
+                .negative {{ color: #dc3545; }}
+                .signal-buy {{ background-color: #d4edda; color: #155724; font-weight: bold; }}
+                .signal-sell {{ background-color: #f8d7da; color: #721c24; font-weight: bold; }}
+                .signal-neutral {{ background-color: #fff3cd; color: #856404; font-weight: bold; }}
             </style>
         </head>
         <body>
             <div class="container">
-                <h1>Market Health Report - {summary['date']}</h1>
+                <div class="header">
+                    <h1>Market Analysis Report</h1>
+                    <p>Generated on: {summary_data['analysis_date']}</p>
+                </div>
         """
         
-        # Group all data by symbol
-        for symbol in summary['market_overview'].keys():
-            html += f"""
-            <div class='symbol-section'>
-                <h2>{symbol}</h2>
+        for symbol, tf_data in summary_data['tickers'].items():
+            html_content += f"<h2>{symbol} Summary</h2>"
+            html_content += """
+            <table>
+                <tr>
+                    <th>Timeframe</th>
+                    <th>Price</th>
+                    <th>RSI</th>
+                    <th>Bias Reason</th>
+                    <th>SMA (20)</th>
+                    <th>SMA (50)</th>
+                    <th>SMA (200)</th>
+                    <th>BB Upper</th>
+                    <th>BB Lower</th>
+                    <th>Pivot High</th>
+                    <th>Pivot Low</th>
+                </tr>
             """
             
-            # Get all intervals for this symbol
-            intervals = summary['market_overview'][symbol].keys()
+            # Get all available timeframes for this symbol
+            timeframes = list(tf_data.keys())
             
-            for interval in intervals:
-                html += f"""
-                <div class='interval-section'>
-                    <h3>{interval}</h3>
-                    <div class='metric-grid'>
+            for timeframe in timeframes:
+                data = tf_data[timeframe]
+                def pct(val):
+                    return f"<span class='{'positive' if val > 0 else 'negative'}'>({'+' if val > 0 else ''}{val:.2f}%)</span>"
+                html_content += f"""
+                <tr>
+                    <td>{timeframe.capitalize()}</td>
+                    <td>{data['current_price']:.2f}</td>
+                    <td>{data['rsi']:.2f}</td>
+                    <td>{data['bias_reason']}</td>
+                    <td>{data['sma_20']:.2f} {pct(data['sma_20_pct'])}</td>
+                    <td>{data['sma_50']:.2f} {pct(data['sma_50_pct'])}</td>
+                    <td>{data['sma_200']:.2f} {pct(data['sma_200_pct'])}</td>
+                    <td>{data['bb_upper']:.2f} {pct(data['bb_upper_pct'])}</td>
+                    <td>{data['bb_lower']:.2f} {pct(data['bb_lower_pct'])}</td>
+                    <td>{data['pivot_high']:.2f} {pct(data['pivot_high_pct'])}</td>
+                    <td>{data['pivot_low']:.2f} {pct(data['pivot_low_pct'])}</td>
+                </tr>
                 """
-                
-                # Market Overview Metrics
-                market_data = summary['market_overview'][symbol][interval]
-                html += f"""
-                        <div class='metric'>
-                            <h4>Market Overview</h4>
-                            <p>Last Price: {market_data['last_price']}</p>
-                            <p>Trend: <span class='trend-{market_data['trend'].lower().split()[0]}'>{market_data['trend']}</span></p>
-                            <p>Volatility: {market_data['volatility']}</p>
-                        </div>
-                """
-                
-                # Swing Analysis Metrics
-                swing_data = summary['swing_analysis'][symbol][interval]
-                html += f"""
-                        <div class='metric'>
-                            <h4>Swing Analysis</h4>
-                            <p>Trend: <span class='trend-{swing_data['trend']}'>{swing_data['trend']}</span></p>
-                            <p>Overall Trend: <span class='trend-{swing_data['overall_trend']}'>{swing_data['overall_trend']}</span></p>
-                            <p>MA20: {swing_data['ma20']}</p>
-                            <p>MA50: {swing_data['ma50']}</p>
-                        </div>
-                """
-                
-                # Key Levels
-                levels = summary['key_levels'][symbol][interval]
-                html += f"""
-                        <div class='metric'>
-                            <h4>Key Levels</h4>
-                            <div class='levels'>
-                                <div class='support-levels'>
-                                    <strong>Support:</strong><br>
-                                    {'<br>'.join([f"• {level}" for level in levels['support']])}
-                                </div>
-                                <div class='resistance-levels'>
-                                    <strong>Resistance:</strong><br>
-                                    {'<br>'.join([f"• {level}" for level in levels['resistance']])}
-                                </div>
-                            </div>
-                        </div>
-                """
-                
-                html += """
-                    </div>
-                </div>
-                """
-            
-            html += """
-            </div>
-            """
-        
-        html += """
+            html_content += "</table>"
+        html_content += """
             </div>
         </body>
         </html>
         """
-        
-        return html
+        return html_content
     
-    def save_report(self, html_content: str, date_str: str = None) -> str:
-        """Save the HTML report to a file"""
-        if date_str is None:
-            date_str = datetime.now().strftime('%Y-%m-%d')
-        
-        filename = f"market_report_{date_str}.html"
-        file_path = os.path.join(self.file_manager.reports_dir, filename)
-        
-        with open(file_path, 'w') as f:
-            f.write(html_content)
-        
-        return file_path
+    def generate_reports(self) -> None:
+        """Generate all reports and dashboards"""
+        try:
+            # Load summary data
+            summary_data = self.load_summary_data()
+            
+            # Generate HTML report
+            html_content = self.generate_html_report(summary_data)
+            
+            # Create report filename with date
+            date_str = summary_data['analysis_date']
+            report_filename = f"market_report_{date_str}.html"
+            report_path = os.path.join(self.reports_dir, report_filename)
+            
+            with open(report_path, 'w') as f:
+                f.write(html_content)
+            self.logger.info(f"Saved HTML report to {report_path}")
+            
+        except Exception as e:
+            self.logger.error(f"Error generating reports: {str(e)}")
+            raise
 
 if __name__ == "__main__":
-    # Initialize FileManager
-    file_manager = FileManager()
+    # Initialize report generator
+    analyzer = ReportGenerator('analysis_output')
     
-    # Create ReportGenerator
-    report_generator = ReportGenerator(file_manager)
-    
-    # Load the summary file
-    summary_file = os.path.join(file_manager.reports_dir, 'market_summary_2025-04-14.json')
-    with open(summary_file, 'r') as f:
-        summary = json.load(f)
-    
-    # Generate and save the report
-    html_content = report_generator.generate_report(summary)
-    report_path = report_generator.save_report(html_content, summary['date'])
-    
-    print(f"Report generated and saved to: {report_path}") 
+    try:
+        # Generate reports
+        print("\nGenerating reports and dashboards...")
+        analyzer.generate_reports()
+        print("\nReports generated successfully!")
+        
+    except Exception as e:
+        print(f"\nError during report generation: {str(e)}") 

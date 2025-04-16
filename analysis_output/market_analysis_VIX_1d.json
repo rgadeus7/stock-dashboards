@@ -1,0 +1,27 @@
+{
+    "bias_reason": "Failed to Close Below Prev Low",
+    "current_price": 30.12,
+    "rsi": 51.1,
+    "sma_20": 28.27,
+    "sma_50": 23.1,
+    "sma_200": 18.67,
+    "bb_upper": 49.83,
+    "bb_lower": 6.71,
+    "pivot_high": 60.13,
+    "pivot_low": 16.97,
+    "sma_20_pct": 6.14,
+    "sma_50_pct": 23.32,
+    "sma_200_pct": 38.01,
+    "bb_upper_pct": -65.43,
+    "bb_lower_pct": 77.71,
+    "pivot_high_pct": -99.63,
+    "pivot_low_pct": 43.66,
+    "parabolic_sar": 59.52,
+    "ticker_info": {
+        "symbol": "VIX",
+        "interval": "1d",
+        "analysis_date": "2025-04-15",
+        "data_start": "2005-04-15",
+        "data_end": "2025-04-15"
+    }
+}

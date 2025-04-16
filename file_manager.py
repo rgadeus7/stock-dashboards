@@ -10,31 +10,30 @@ import pandas as pd
 
 class FileManager:
     def __init__(self):
-        """Initialize the FileManager with directory paths"""
+        """Initialize FileManager with project directories"""
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         self.data_dir = os.path.join(self.base_dir, 'data')
         self.analysis_dir = os.path.join(self.base_dir, 'analysis_output')
         self.reports_dir = os.path.join(self.base_dir, 'reports')
         self.config_dir = os.path.join(self.base_dir, 'config')
-        self.output_dir = os.path.join(self.base_dir, 'reports')  # Add output_dir pointing to reports directory
-        
-        # Setup logging
         self.logger = logging.getLogger(__name__)
         
-        # Create directories if they don't exist
-        self._create_directories()
+        # Create necessary directories
+        for directory in [self.data_dir, self.analysis_dir, self.reports_dir, self.config_dir]:
+            os.makedirs(directory, exist_ok=True)
+            self.logger.info(f"Created/verified directory: {directory}")
     
-    def _create_directories(self):
-        """Create all necessary directories"""
-        try:
-            os.makedirs(self.data_dir, exist_ok=True)
-            os.makedirs(self.analysis_dir, exist_ok=True)
-            os.makedirs(self.reports_dir, exist_ok=True)
-            os.makedirs(self.config_dir, exist_ok=True)
-            self.logger.info(f"Created/verified directories: {self.data_dir}, {self.analysis_dir}, {self.reports_dir}, {self.config_dir}")
-        except Exception as e:
-            self.logger.error(f"Error creating directories: {str(e)}")
-            raise
+    def get_data_file_path(self, filename: str) -> str:
+        """Get full path for a data file"""
+        return os.path.join(self.data_dir, filename)
+    
+    def get_analysis_file_path(self, filename: str) -> str:
+        """Get full path for an analysis file"""
+        return os.path.join(self.analysis_dir, filename)
+    
+    def get_config_file_path(self, filename: str) -> str:
+        """Get full path for a config file"""
+        return os.path.join(self.config_dir, filename)
     
     def get_latest_analysis_file(self) -> Optional[str]:
         """Get the path to the latest analysis file"""

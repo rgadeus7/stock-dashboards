@@ -6,7 +6,7 @@ tickers:
       data_collection:
         period: 20y
         intervals: ["daily", "weekly", "monthly"]
-      analysis_timeframes: ["daily"]  # Only daily analysis for SPX
+      analysis_timeframes: [ "daily", "weekly", "monthly"]  # Multiple timeframes for SPX
     
     VIX:
       symbol: ^VIX
@@ -24,6 +24,5 @@ tickers:
       description: "S&P 500 E-mini futures contract"
       data_collection:
         period: 2y  # Shorter period for futures as they have more recent data
-        intervals: ["60m",  "daily", "weekly"]  # Added 1h interval
-      analysis_timeframes: [ "daily", "weekly"]  # Multiple timeframes for ES
-  
+        intervals: ["60m",  "daily"]  # Added 1h interval
+      analysis_timeframes: ["60m",  "daily"]   # Multiple timeframes for ES

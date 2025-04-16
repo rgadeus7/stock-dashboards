@@ -1,0 +1,27 @@
+{
+    "bias_reason": "Close Below Prev Low",
+    "current_price": 5376.25,
+    "rsi": 34.41,
+    "sma_20": 5433.9,
+    "sma_50": 5437.96,
+    "sma_200": 5278.29,
+    "bb_upper": 5482.11,
+    "bb_lower": 5385.69,
+    "pivot_high": 5485.0,
+    "pivot_low": 5419.5,
+    "sma_20_pct": -1.07,
+    "sma_50_pct": -1.15,
+    "sma_200_pct": 1.82,
+    "bb_upper_pct": -1.97,
+    "bb_lower_pct": -0.18,
+    "pivot_high_pct": -2.02,
+    "pivot_low_pct": -0.8,
+    "parabolic_sar": 5472.83,
+    "ticker_info": {
+        "symbol": "ES",
+        "interval": "60m",
+        "analysis_date": "2025-04-15",
+        "data_start": "2025-02-16",
+        "data_end": "2025-04-16"
+    }
+}

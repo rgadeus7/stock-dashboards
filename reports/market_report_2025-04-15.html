@@ -1,0 +1,190 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Market Analysis Report</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                    background-color: #f5f5f5;
+                }
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    background-color: white;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                }
+                .header {
+                    text-align: center;
+                    margin-bottom: 30px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #eee;
+                }
+                h2 {
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-bottom: 30px;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: center;
+                }
+                th {
+                    background-color: #f2f2f2;
+                    font-weight: bold;
+                }
+                .positive { color: #28a745; }
+                .negative { color: #dc3545; }
+                .signal-buy { background-color: #d4edda; color: #155724; font-weight: bold; }
+                .signal-sell { background-color: #f8d7da; color: #721c24; font-weight: bold; }
+                .signal-neutral { background-color: #fff3cd; color: #856404; font-weight: bold; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="header">
+                    <h1>Market Analysis Report</h1>
+                    <p>Generated on: 2025-04-15</p>
+                </div>
+        <h2>SPX Summary</h2>
+            <table>
+                <tr>
+                    <th>Timeframe</th>
+                    <th>Price</th>
+                    <th>RSI</th>
+                    <th>Bias Reason</th>
+                    <th>SMA (20)</th>
+                    <th>SMA (50)</th>
+                    <th>SMA (200)</th>
+                    <th>BB Upper</th>
+                    <th>BB Lower</th>
+                    <th>Pivot High</th>
+                    <th>Pivot Low</th>
+                </tr>
+            
+                <tr>
+                    <td>Daily</td>
+                    <td>5396.63</td>
+                    <td>45.49</td>
+                    <td>Strong Downtrend (SMA Alignment) - Inside Bar - Bias Down</td>
+                    <td>5492.94 <span class='negative'>(-1.75%)</span></td>
+                    <td>5736.30 <span class='negative'>(-5.92%)</span></td>
+                    <td>5753.46 <span class='negative'>(-6.20%)</span></td>
+                    <td>5967.49 <span class='negative'>(-9.57%)</span></td>
+                    <td>5018.39 <span class='positive'>(+7.54%)</span></td>
+                    <td>5786.95 <span class='negative'>(-6.74%)</span></td>
+                    <td>4835.04 <span class='positive'>(+11.61%)</span></td>
+                </tr>
+                
+                <tr>
+                    <td>Weekly</td>
+                    <td>5396.63</td>
+                    <td>40.31</td>
+                    <td>Price Below Pivot Low - Inside Bar - Bias Up</td>
+                    <td>5827.55 <span class='negative'>(-7.39%)</span></td>
+                    <td>5686.96 <span class='negative'>(-5.11%)</span></td>
+                    <td>4685.82 <span class='positive'>(+15.17%)</span></td>
+                    <td>6389.47 <span class='negative'>(-15.54%)</span></td>
+                    <td>5265.63 <span class='positive'>(+2.49%)</span></td>
+                    <td>6147.43 <span class='negative'>(-12.21%)</span></td>
+                    <td>5504.65 <span class='negative'>(-1.96%)</span></td>
+                </tr>
+                
+                <tr>
+                    <td>Monthly</td>
+                    <td>5396.63</td>
+                    <td>54.62</td>
+                    <td>Strong Uptrend (SMA Alignment) - Close Below Prev Low</td>
+                    <td>5317.28 <span class='positive'>(+1.49%)</span></td>
+                    <td>4662.99 <span class='positive'>(+15.73%)</span></td>
+                    <td>2654.61 <span class='positive'>(+103.29%)</span></td>
+                    <td>6404.68 <span class='negative'>(-15.74%)</span></td>
+                    <td>4229.88 <span class='positive'>(+27.58%)</span></td>
+                    <td>6147.43 <span class='negative'>(-12.21%)</span></td>
+                    <td>4103.78 <span class='positive'>(+31.50%)</span></td>
+                </tr>
+                </table><h2>VIX Summary</h2>
+            <table>
+                <tr>
+                    <th>Timeframe</th>
+                    <th>Price</th>
+                    <th>RSI</th>
+                    <th>Bias Reason</th>
+                    <th>SMA (20)</th>
+                    <th>SMA (50)</th>
+                    <th>SMA (200)</th>
+                    <th>BB Upper</th>
+                    <th>BB Lower</th>
+                    <th>Pivot High</th>
+                    <th>Pivot Low</th>
+                </tr>
+            
+                <tr>
+                    <td>Daily</td>
+                    <td>30.12</td>
+                    <td>51.10</td>
+                    <td>Strong Uptrend (SMA Alignment) - Failed to Close Below Prev Low</td>
+                    <td>28.27 <span class='positive'>(+6.55%)</span></td>
+                    <td>23.10 <span class='positive'>(+30.40%)</span></td>
+                    <td>18.67 <span class='positive'>(+61.32%)</span></td>
+                    <td>49.83 <span class='negative'>(-39.55%)</span></td>
+                    <td>6.71 <span class='positive'>(+348.71%)</span></td>
+                    <td>60.13 <span class='negative'>(-49.91%)</span></td>
+                    <td>16.97 <span class='positive'>(+77.49%)</span></td>
+                </tr>
+                </table><h2>ES Summary</h2>
+            <table>
+                <tr>
+                    <th>Timeframe</th>
+                    <th>Price</th>
+                    <th>RSI</th>
+                    <th>Bias Reason</th>
+                    <th>SMA (20)</th>
+                    <th>SMA (50)</th>
+                    <th>SMA (200)</th>
+                    <th>BB Upper</th>
+                    <th>BB Lower</th>
+                    <th>Pivot High</th>
+                    <th>Pivot Low</th>
+                </tr>
+            
+                <tr>
+                    <td>60m</td>
+                    <td>5376.25</td>
+                    <td>34.41</td>
+                    <td>Price Below Lower Bollinger Band - Close Below Prev Low</td>
+                    <td>5433.90 <span class='negative'>(-1.06%)</span></td>
+                    <td>5437.95 <span class='negative'>(-1.13%)</span></td>
+                    <td>5278.29 <span class='positive'>(+1.86%)</span></td>
+                    <td>5482.11 <span class='negative'>(-1.93%)</span></td>
+                    <td>5385.69 <span class='negative'>(-0.18%)</span></td>
+                    <td>5485.00 <span class='negative'>(-1.98%)</span></td>
+                    <td>5419.50 <span class='negative'>(-0.80%)</span></td>
+                </tr>
+                
+                <tr>
+                    <td>Daily</td>
+                    <td>5386.25</td>
+                    <td>44.47</td>
+                    <td>Strong Downtrend (SMA Alignment) - Close Below Prev Low</td>
+                    <td>5521.71 <span class='negative'>(-2.45%)</span></td>
+                    <td>5756.17 <span class='negative'>(-6.43%)</span></td>
+                    <td>5784.22 <span class='negative'>(-6.88%)</span></td>
+                    <td>5995.83 <span class='negative'>(-10.17%)</span></td>
+                    <td>5047.60 <span class='positive'>(+6.71%)</span></td>
+                    <td>5528.75 <span class='negative'>(-2.58%)</span></td>
+                    <td>4832.00 <span class='positive'>(+11.47%)</span></td>
+                </tr>
+                </table>
+            </div>
+        </body>
+        </html>
+        

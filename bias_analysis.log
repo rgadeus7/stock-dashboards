@@ -1,0 +1,78 @@
+2025-04-15 11:16:05,965 - ERROR - Error in bias analysis: unsupported operand type(s) for /: 'str' and 'int'
+2025-04-15 11:16:49,506 - ERROR - Error in bias analysis: unsupported operand type(s) for /: 'str' and 'int'
+2025-04-15 11:17:51,310 - INFO - Saved bias analysis results to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_2025-04-15.json
+2025-04-15 11:20:03,464 - ERROR - Error loading data: [Errno 2] No such file or directory: 'GSPC_2000-01-01_to_2025-04-30_1day.csv'
+2025-04-15 11:20:03,464 - ERROR - Error in bias analysis: [Errno 2] No such file or directory: 'GSPC_2000-01-01_to_2025-04-30_1day.csv'
+2025-04-15 11:21:10,870 - INFO - Saved bias analysis results to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_2025-04-15.json
+2025-04-15 11:23:42,271 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:23:42,280 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:23:42,611 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:23:42,615 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:23:42,944 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:23:42,948 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:25:04,343 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:25:04,347 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:25:04,599 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:25:04,603 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:25:04,820 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:25:04,825 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:26:44,252 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:26:44,257 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:26:44,492 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:26:44,498 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:26:44,762 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:26:44,768 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:26:44,769 - INFO - Saved bias analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis\bias_analysis_summary_2025-04-15.json
+2025-04-15 11:28:17,213 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:28:17,218 - ERROR - Error analyzing SPX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:28:17,219 - ERROR - Error analyzing SPX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:28:17,512 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:28:17,516 - ERROR - Error analyzing VIX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:28:17,516 - ERROR - Error analyzing VIX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:28:17,956 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:28:17,961 - ERROR - Error analyzing ES: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:28:17,961 - ERROR - Error analyzing ES: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:28:58,726 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:28:58,730 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:28:58,947 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:28:58,953 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:28:59,319 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:28:59,323 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:28:59,324 - INFO - Saved bias analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_summary_2025-04-15.json
+2025-04-15 11:30:19,729 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:30:19,733 - ERROR - Error analyzing SPX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:30:19,733 - ERROR - Error analyzing SPX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:30:20,065 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:30:20,069 - ERROR - Error analyzing VIX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:30:20,070 - ERROR - Error analyzing VIX: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:30:20,371 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:30:20,375 - ERROR - Error analyzing ES: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:30:20,375 - ERROR - Error analyzing ES: 'FileManager' object has no attribute 'analysis_output_dir'
+2025-04-15 11:37:54,844 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:37:54,849 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:37:55,182 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:37:55,187 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:37:55,459 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:37:55,463 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:37:55,464 - INFO - Saved bias analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\bias_analysis_summary_2025-04-15.json
+2025-04-15 11:40:58,400 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:40:58,404 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:40:58,773 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:40:58,779 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:40:59,067 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:40:59,072 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:40:59,073 - INFO - Saved bias analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_summary_2025-04-15.json
+2025-04-15 11:41:21,228 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:41:21,232 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:41:21,667 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:41:21,671 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:41:22,048 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:41:22,054 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:41:22,054 - INFO - Saved bias analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_summary_2025-04-15.json
+2025-04-15 11:42:25,048 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:42:25,052 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_SPX_1d_2025-04-15.json
+2025-04-15 11:42:25,348 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:42:25,353 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_VIX_1d_2025-04-15.json
+2025-04-15 11:42:25,589 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-15_to_2025-04-15_1d.csv
+2025-04-15 11:42:25,592 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_ES_1d_2025-04-15.json
+2025-04-15 11:42:25,594 - INFO - Saved bias analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_summary_2025-04-15.json

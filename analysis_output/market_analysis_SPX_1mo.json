@@ -1,0 +1,27 @@
+{
+    "bias_reason": "Close Below Prev Low",
+    "current_price": 5396.63,
+    "rsi": 54.62,
+    "sma_20": 5317.28,
+    "sma_50": 4662.99,
+    "sma_200": 2654.61,
+    "bb_upper": 6404.68,
+    "bb_lower": 4229.88,
+    "pivot_high": 6147.43,
+    "pivot_low": 4103.78,
+    "sma_20_pct": 1.47,
+    "sma_50_pct": 13.59,
+    "sma_200_pct": 50.81,
+    "bb_upper_pct": -18.68,
+    "bb_lower_pct": 21.62,
+    "pivot_high_pct": -13.91,
+    "pivot_low_pct": 23.96,
+    "parabolic_sar": 6134.26,
+    "ticker_info": {
+        "symbol": "SPX",
+        "interval": "1mo",
+        "analysis_date": "2025-04-15",
+        "data_start": "2005-05-01",
+        "data_end": "2025-04-01"
+    }
+}
