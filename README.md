@@ -2,6 +2,59 @@
 
 A comprehensive tool for analyzing market health using multiple indicators and data sources.
 
+## Environment Setup
+
+### Option 1: Using Anaconda (Recommended)
+
+1. Install Anaconda from [Anaconda's official website](https://www.anaconda.com/download)
+
+2. Add Anaconda to system PATH:
+   - Open Windows Settings
+   - Search for "Environment Variables"
+   - Click "Edit the system environment variables"
+   - Click "Environment Variables" button
+   - Under "System Variables", find and select "Path"
+   - Click "Edit"
+   - Click "New" and add these paths:
+     ```
+     C:\ProgramData\Anaconda3
+     C:\ProgramData\Anaconda3\Scripts
+     C:\ProgramData\Anaconda3\Library\bin
+     ```
+   - Click "OK" on all windows
+
+3. Initialize conda in PowerShell:
+   ```bash
+   conda init powershell
+   ```
+   - Close and reopen your terminal after running this command
+
+4. Create and activate the environment:
+   ```bash
+   conda create -n stock-dashboards python=3.9 -y
+   conda activate stock-dashboards
+   ```
+
+5. Install required packages:
+   ```bash
+   conda install pandas numpy pyyaml matplotlib seaborn -y
+   conda install -c conda-forge streamlit -y
+   conda install -c conda-forge yfinance -y
+   ```
+
+### Option 2: Using venv (Alternative)
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 ## Project Structure
 ```
 stock-dashboards/

@@ -1,0 +1,35 @@
+{
+    "price_action_bias": 1,
+    "bias_reason": "Close Above Prev High",
+    "volume_bias": 1,
+    "momentum_bias": 1,
+    "volatility_bias": 1,
+    "overall_bias": 1.0,
+    "price_change": 0.06641472367773907,
+    "daily_range": 0.16092131233615428,
+    "volume_change": 0.6065664336079742,
+    "current_price": 3330.199951171875,
+    "prev_day": {
+        "open": 2872.699951171875,
+        "high": 3132.5,
+        "low": 2863.39990234375,
+        "close": 3122.800048828125,
+        "volume": 168341.0
+    },
+    "current_day": {
+        "open": 3129.699951171875,
+        "high": 3485.60009765625,
+        "low": 2949.699951171875,
+        "close": 3330.199951171875,
+        "volume": 270451.0
+    },
+    "ticker_info": {
+        "symbol": "GC",
+        "name": "Gold Futures",
+        "description": "Broad market index representing 500 large companies",
+        "interval": "1mo",
+        "analysis_date": "2025-04-25",
+        "data_start": "2005-06-01",
+        "data_end": "2025-04-01"
+    }
+}

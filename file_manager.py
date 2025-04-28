@@ -168,16 +168,12 @@ class FileManager:
             
             file_path = os.path.join(self.data_dir, interval, f"{symbol}_{interval}.csv")
             
-            # Add header information
-            with open(file_path, 'w') as f:
-                f.write(f"Symbol: {symbol}\n")
-                f.write(f"Interval: {interval}\n")
-                f.write("\n")  # Empty line
-                data.to_csv(f, index=False)
-                
+            # Save data directly without header information
+            data.to_csv(file_path, index=False)
             return True
             
         except Exception as e:
+            self.logger.error(f"Error saving data for {symbol} at {interval} interval: {str(e)}")
             return False
 
 if __name__ == "__main__":

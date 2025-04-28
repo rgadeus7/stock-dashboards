@@ -1,8 +1,7 @@
-- Daily Bias
-- Weekly Bias
-- Monthly Bias
-- Swing Low and High based on Daily, Weekly
-- Bollinger Bands StdDev for Daily, Weekly
-- 4H Stops based on ATR
+
+- Stops based on ATR
 - Swing Failure Pattern in Daily, Weekly, Monthly
-- Moving Avergae 20, 50, 100 and 200 in Daily, Weekly
+- Swing high and Swing low - 50% pullback
+- once we have all data - add overall bias - like Monthly Close below previous low - then Daily need to be careful and watch for sell signal and viceversa
+
+- Build Stats when Price is above Weekly and Monthly BB upper and lower - calculate forward returns in next 1w, 2w and 1M, 2M periods

@@ -4,10 +4,9 @@ tickers:
       name: S&P 500 Index
       description: "Broad market index representing 500 large companies"
       data_collection:
-        period: 20y
-        intervals: ["daily", "weekly", "monthly"]
-      analysis_timeframes: [ "daily", "weekly", "monthly"]  # Multiple timeframes for SPX
-    
+        intervals: ["60m", "daily", "weekly", "monthly"]
+      analysis_timeframes: [ "60m", "daily", "weekly", "monthly"]  # Multiple timeframes for SPX
+
     VIX:
       symbol: ^VIX
       name: Volatility Index
@@ -26,3 +25,12 @@ tickers:
         period: 2y  # Shorter period for futures as they have more recent data
         intervals: ["60m",  "daily"]  # Added 1h interval
       analysis_timeframes: ["60m",  "daily"]   # Multiple timeframes for ES
+
+    GC:
+      symbol: GC=F
+      name: Gold Futures
+      description: "Broad market index representing 500 large companies"
+      data_collection:
+        period: 20y
+        intervals: ["daily", "weekly", "monthly"]
+      analysis_timeframes: [ "daily", "weekly", "monthly"]  # Multiple timeframes for SPX

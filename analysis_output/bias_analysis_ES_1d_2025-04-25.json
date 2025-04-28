@@ -1,0 +1,35 @@
+{
+    "price_action_bias": 1,
+    "bias_reason": "Close Above Prev High",
+    "volume_bias": 0,
+    "momentum_bias": 0,
+    "volatility_bias": 0,
+    "overall_bias": 0.25,
+    "price_change": 0.0074846904059877525,
+    "daily_range": 0.014768122467357047,
+    "volume_change": -0.3131475109044492,
+    "current_price": 5552.5,
+    "prev_day": {
+        "open": 5409.0,
+        "high": 5541.5,
+        "low": 5355.25,
+        "close": 5511.25,
+        "volume": 1846494.0
+    },
+    "current_day": {
+        "open": 5529.0,
+        "high": 5562.25,
+        "low": 5480.25,
+        "close": 5552.5,
+        "volume": 1268269.0
+    },
+    "ticker_info": {
+        "symbol": "ES",
+        "name": "E-mini S&P 500 Futures",
+        "description": "S&P 500 E-mini futures contract",
+        "interval": "1d",
+        "analysis_date": "2025-04-25",
+        "data_start": "2005-04-25",
+        "data_end": "2025-04-25"
+    }
+}

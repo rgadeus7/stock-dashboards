@@ -341,3 +341,25 @@ expected ',' or ']', but got '<scalar>'
 2025-04-15 20:57:15,398 - ERROR - Error analyzing SPX at 1mo timeframe: 'MarketAnalyzer' object has no attribute 'calculate_bias'
 2025-04-15 21:11:46,558 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
 2025-04-15 21:15:41,486 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 21:31:54,599 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 21:46:23,676 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-15 22:06:54,880 - INFO - Saved market analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\market_analysis_summary.json
+2025-04-25 19:02:55,832 - WARNING - Invalid timeframe 60m for SPX
+2025-04-25 19:02:56,573 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\SPX_2005-04-26_to_2025-04-25_1d.csv
+2025-04-25 19:02:56,599 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_SPX_1d_2025-04-25.json
+2025-04-25 19:02:56,718 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\weekly\SPX_2005-04-25_to_2025-04-21_1wk.csv
+2025-04-25 19:02:56,722 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_SPX_1wk_2025-04-25.json
+2025-04-25 19:02:56,818 - INFO - Saved SPX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\monthly\SPX_2005-05-01_to_2025-04-01_1mo.csv
+2025-04-25 19:02:56,821 - INFO - Saved SPX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_SPX_1mo_2025-04-25.json
+2025-04-25 19:02:57,011 - INFO - Saved VIX data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\VIX_2005-04-25_to_2025-04-25_1d.csv
+2025-04-25 19:02:57,016 - INFO - Saved VIX bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_VIX_1d_2025-04-25.json
+2025-04-25 19:02:57,016 - WARNING - Invalid timeframe 60m for ES
+2025-04-25 19:02:57,300 - INFO - Saved ES data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\ES_2005-04-25_to_2025-04-25_1d.csv
+2025-04-25 19:02:57,305 - INFO - Saved ES bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_ES_1d_2025-04-25.json
+2025-04-25 19:02:57,489 - INFO - Saved GC data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\daily\GC_2005-04-25_to_2025-04-25_1d.csv
+2025-04-25 19:02:57,493 - INFO - Saved GC bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_GC_1d_2025-04-25.json
+2025-04-25 19:02:57,609 - INFO - Saved GC data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\weekly\GC_2005-04-25_to_2025-04-21_1wk.csv
+2025-04-25 19:02:57,612 - INFO - Saved GC bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_GC_1wk_2025-04-25.json
+2025-04-25 19:02:57,688 - INFO - Saved GC data to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\data\monthly\GC_2005-06-01_to_2025-04-01_1mo.csv
+2025-04-25 19:02:57,692 - INFO - Saved GC bias analysis to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_GC_1mo_2025-04-25.json
+2025-04-25 19:02:57,694 - INFO - Saved bias analysis summary to C:\Users\Swathi Gogula\Desktop\myapps\stocks\stock-dashboards\analysis_output\bias_analysis_summary_2025-04-25.json

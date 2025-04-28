@@ -1,0 +1,35 @@
+{
+    "price_action_bias": 1,
+    "bias_reason": "Failed to Close Below Prev Low",
+    "volume_bias": 0,
+    "momentum_bias": 0,
+    "volatility_bias": 1,
+    "overall_bias": 0.5,
+    "price_change": -0.01543878314834793,
+    "daily_range": 0.15569906403797226,
+    "volume_change": -0.07360649022101,
+    "current_price": 5525.2099609375,
+    "prev_day": {
+        "open": 5968.330078125,
+        "high": 5986.08984375,
+        "low": 5488.72998046875,
+        "close": 5611.85009765625,
+        "volume": 111387270000.0
+    },
+    "current_day": {
+        "open": 5597.52978515625,
+        "high": 5695.31005859375,
+        "low": 4835.0400390625,
+        "close": 5525.2099609375,
+        "volume": 103188444000.0
+    },
+    "ticker_info": {
+        "symbol": "SPX",
+        "name": "S&P 500 Index",
+        "description": "Broad market index representing 500 large companies",
+        "interval": "1mo",
+        "analysis_date": "2025-04-25",
+        "data_start": "2005-05-01",
+        "data_end": "2025-04-01"
+    }
+}

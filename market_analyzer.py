@@ -483,29 +483,57 @@ class MarketAnalyzer:
         # Get price action bias first
         price_action_reason = self.analyze_price_action(df)
         
-        # Check RSI
-        if latest['rsi'] > 70:
+        # Check RSI with more granular conditions
+        if latest['rsi'] > 80:
+            return 'bearish', f'RSI Extremely Overbought - {price_action_reason}'
+        elif latest['rsi'] > 70:
             return 'bearish', f'RSI Overbought - {price_action_reason}'
+        elif latest['rsi'] < 20:
+            return 'bullish', f'RSI Extremely Oversold - {price_action_reason}'
         elif latest['rsi'] < 30:
             return 'bullish', f'RSI Oversold - {price_action_reason}'
             
-        # Check SMA alignment
+        # Check SMA alignment with more conditions
         if latest['Close'] > latest['sma_20'] > latest['sma_50'] > latest['sma_200']:
-            return 'bullish', f'Strong Uptrend (SMA Alignment) - {price_action_reason}'
+            if latest['sma_20_pct'] > 0 and latest['sma_50_pct'] > 0:
+                return 'bullish', f'Strong Uptrend (SMA Alignment Above) - {price_action_reason}'
+            else:
+                return 'bullish', f'Uptrend (SMA Alignment) - {price_action_reason}'
         elif latest['Close'] < latest['sma_20'] < latest['sma_50'] < latest['sma_200']:
-            return 'bearish', f'Strong Downtrend (SMA Alignment) - {price_action_reason}'
+            if latest['sma_20_pct'] < 0 and latest['sma_50_pct'] < 0:
+                return 'bearish', f'Strong Downtrend (SMA Alignment Below) - {price_action_reason}'
+            else:
+                return 'bearish', f'Downtrend (SMA Alignment) - {price_action_reason}'
             
-        # Check Bollinger Bands
+        # Check Bollinger Bands with more conditions
         if latest['Close'] > latest['bb_upper']:
-            return 'bearish', f'Price Above Upper Bollinger Band - {price_action_reason}'
+            if latest['bb_upper_pct'] < -2:
+                return 'bearish', f'Price Significantly Above Upper Bollinger Band - {price_action_reason}'
+            else:
+                return 'bearish', f'Price Above Upper Bollinger Band - {price_action_reason}'
         elif latest['Close'] < latest['bb_lower']:
-            return 'bullish', f'Price Below Lower Bollinger Band - {price_action_reason}'
+            if latest['bb_lower_pct'] > 2:
+                return 'bullish', f'Price Significantly Below Lower Bollinger Band - {price_action_reason}'
+            else:
+                return 'bullish', f'Price Below Lower Bollinger Band - {price_action_reason}'
             
-        # Check Pivot Points
+        # Check Pivot Points with more conditions
         if latest['Close'] > latest['pivot_high']:
-            return 'bullish', f'Price Above Pivot High - {price_action_reason}'
+            if latest['pivot_high_pct'] < -2:
+                return 'bullish', f'Price Significantly Above Pivot High - {price_action_reason}'
+            else:
+                return 'bullish', f'Price Above Pivot High - {price_action_reason}'
         elif latest['Close'] < latest['pivot_low']:
-            return 'bearish', f'Price Below Pivot Low - {price_action_reason}'
+            if latest['pivot_low_pct'] > 2:
+                return 'bearish', f'Price Significantly Below Pivot Low - {price_action_reason}'
+            else:
+                return 'bearish', f'Price Below Pivot Low - {price_action_reason}'
+            
+        # Check for potential reversal patterns
+        if latest['rsi'] > 60 and latest['Close'] < latest['sma_20']:
+            return 'bearish', f'Potential Bearish Reversal (RSI High, Price Below SMA20) - {price_action_reason}'
+        elif latest['rsi'] < 40 and latest['Close'] > latest['sma_20']:
+            return 'bullish', f'Potential Bullish Reversal (RSI Low, Price Above SMA20) - {price_action_reason}'
             
         # If no clear technical bias, use price action only
         if "Up" in price_action_reason:
@@ -513,7 +541,6 @@ class MarketAnalyzer:
         elif "Down" in price_action_reason:
             return 'bearish', price_action_reason
             
-        # Default to neutral if no clear bias
         return 'neutral', price_action_reason
 
 if __name__ == "__main__":

@@ -1,0 +1,35 @@
+{
+    "price_action_bias": -1,
+    "bias_reason": "Close Below Prev Low",
+    "volume_bias": 0,
+    "momentum_bias": -1,
+    "volatility_bias": 1,
+    "overall_bias": -0.25,
+    "price_change": -0.06157911609556573,
+    "daily_range": 0.09500807551749117,
+    "volume_change": 0,
+    "current_price": 24.84000015258789,
+    "prev_day": {
+        "open": 28.690000534057617,
+        "high": 29.65999984741211,
+        "low": 26.360000610351562,
+        "close": 26.469999313354492,
+        "volume": 0.0
+    },
+    "current_day": {
+        "open": 26.219999313354492,
+        "high": 27.200000762939453,
+        "low": 24.84000015258789,
+        "close": 24.84000015258789,
+        "volume": 0.0
+    },
+    "ticker_info": {
+        "symbol": "VIX",
+        "name": "Volatility Index",
+        "description": "Measures market's expectation of volatility",
+        "interval": "1d",
+        "analysis_date": "2025-04-25",
+        "data_start": "2005-04-25",
+        "data_end": "2025-04-25"
+    }
+}
